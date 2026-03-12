@@ -101,6 +101,7 @@
             this.buttonMostrar.TabIndex = 6;
             this.buttonMostrar.Text = "Mostar reporte";
             this.buttonMostrar.UseVisualStyleBackColor = true;
+            this.buttonMostrar.Click += new System.EventHandler(this.buttonMostrar_Click);
             // 
             // buttonOrdenar
             // 
@@ -110,6 +111,7 @@
             this.buttonOrdenar.TabIndex = 7;
             this.buttonOrdenar.Text = "Ordenar por taller";
             this.buttonOrdenar.UseVisualStyleBackColor = true;
+            this.buttonOrdenar.Click += new System.EventHandler(this.buttonOrdenar_Click);
             // 
             // Form1
             // 
