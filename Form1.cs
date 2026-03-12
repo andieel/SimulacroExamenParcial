@@ -201,5 +201,16 @@ namespace SimulacroExamenParcial
             talleres = talleres.OrderBy(t => t.NombreDelTaller).ToList();
             MostrarReporte();
         }
+
+        private void buttonTotal_Click(object sender, EventArgs e)
+        {
+
+            // La lista "inscripciones" contiene todas las inscripciones realizadas
+            // Cada elemento de la lista representa un estudiante inscrito a un taller
+            int totalInscritos = inscripciones.Count;
+
+            // Mostrar la cantidad total de estudiantes inscritos
+            MessageBox.Show("Cantidad total de estudiantes inscritos: " + totalInscritos);
+        }
     }
 }

@@ -36,6 +36,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.buttonMostrar = new System.Windows.Forms.Button();
             this.buttonOrdenar = new System.Windows.Forms.Button();
+            this.buttonTotal = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,11 +114,22 @@
             this.buttonOrdenar.UseVisualStyleBackColor = true;
             this.buttonOrdenar.Click += new System.EventHandler(this.buttonOrdenar_Click);
             // 
+            // buttonTotal
+            // 
+            this.buttonTotal.Location = new System.Drawing.Point(342, 487);
+            this.buttonTotal.Name = "buttonTotal";
+            this.buttonTotal.Size = new System.Drawing.Size(176, 38);
+            this.buttonTotal.TabIndex = 8;
+            this.buttonTotal.Text = "Total de estudiantes";
+            this.buttonTotal.UseVisualStyleBackColor = true;
+            this.buttonTotal.Click += new System.EventHandler(this.buttonTotal_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(798, 550);
+            this.Controls.Add(this.buttonTotal);
             this.Controls.Add(this.buttonOrdenar);
             this.Controls.Add(this.buttonMostrar);
             this.Controls.Add(this.dataGridView1);
@@ -145,6 +157,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button buttonMostrar;
         private System.Windows.Forms.Button buttonOrdenar;
+        private System.Windows.Forms.Button buttonTotal;
     }
 }
 
